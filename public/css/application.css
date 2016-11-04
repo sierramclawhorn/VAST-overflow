@@ -1,0 +1,59 @@
+/*
+Ask: What is this element's default display value? (inline or block).
+ 'display' is CSS's most important property on what type of element it is
+
+"Div" is the standard block-level element. A block-level element starts on a new line
+ and stretches out from the left to the right as far as it can.
+Other common block-level elements: p, form, header, footer, and section
+
+"Span" is the standard inline element. A standard inline element can wrap some text inside a paragraph <span> like this </span> without
+disrupting the flow of that paragraph.
+The "a" element is the most common inline element, since you use them for links.
+
+Another common display value is "none". For example, some specialized elements such as script use "none" as their default.
+
+ */
+
+
+#home_button {
+  border-style: solid;
+  position: absolute;
+  margin-left: 95%;
+}
+
+#ask_button {
+  border-style: solid;
+  position: absolute;
+  margin-left: 84%;
+  padding-right: 10px;
+}
+
+#questions_list {
+  border-bottom-style: solid;
+}
+
+h1 {
+  border-style: solid;
+  width: 235px;
+}
+
+/*#votes_label {
+  border-style: solid;
+}
+
+#answers_label {
+  border-style: solid;
+}*/
+
+html {
+  background-color: grey;
+}
+
+#votes_div {
+  position: absolute;
+}
+
+#answers_div {
+}
+
+
